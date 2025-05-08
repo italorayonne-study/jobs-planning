@@ -32,13 +32,69 @@
         </aside>
 
         <section class="form">
-            <h1> Dados do Perfil </h1>
+             
             <form action="">
+                
+                <fieldset>
+                    <legend>Dados do perfil</legend>
+                </fieldset>
+                <div class="separator"></div>
+                
+                    <div class="input-group">
+                        <div class="input-wrapper">
+                            <input type="text" name="name" id="idname" placeholder="Nome">
+                        </div>
+                        <div class="input-wrapper"><input type="url" name="url" id="idurl" placeholder="Link da foto"></div>
+                    
+                    </div>
+               
 
             </form>
-            <h1> Planejamento </h1>
+            
             <form action="">
-
+                
+                <fieldset>
+                    <legend>Planejamento</legend>
+                </fieldset>
+                
+                <div class="separator"></div>
+                
+                <div class="input-group">
+                    
+                    <div class="input-wrapper">
+                        
+                        <label for="idnumber">Quanto eu <br>quero ganhar por mês?</label>                        
+                        <input type="number" name="number" id="idnumber" placeholder="R$">
+                    
+                    </div>
+                    
+                    <div class="input-wrapper">
+                        
+                        <label for="idhours">Quantas horas <br> quero trabalhar por dia ?</label>    
+                        <input type="number" name="hours" id="idhours">
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="input-group">
+                    
+                    <div class="input-wrapper">
+                        
+                        <label for="idweek">Quantos dias quero <br> trabalhar por semana?</label>
+                        <input type="number" name="week" id="idweek">
+                    
+                    </div>
+                    
+                    <div class="input-wrapper">
+                        
+                        <label for="idholiday">Quantas semanas <br> por ano você quer tirar férias ?</label>
+                        <input type="number" name="holiday" id="idholiday">
+                    
+                    </div>
+                
+                </div>
+                
             </form>
         </section>
     </main>
