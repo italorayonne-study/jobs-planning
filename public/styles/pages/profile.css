@@ -10,34 +10,10 @@
 
 .container {
     width: 100%;
-    
-
     background-color: #f0f2f5;
-
     color: #fff;
-
     display: flex;
-
     justify-content: space-between;
-
     margin-top: 64px;
-    
+
 }
-
-.form{
-    background-color: lightblue;
-
-    color: #5a5a66;
-    
-    margin-right: 160px;
-
-    width: 810px;
-
-    flex: 1;
-
-    padding: 6px;
-    
-    
-    
-}
-
