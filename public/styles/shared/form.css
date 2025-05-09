@@ -1,9 +1,9 @@
 .form {
     color: #5a5a66;
     margin-right: 160px;
-    width: 810px;
+    /* width: 810px; */
+    height: 556px;
     flex: 1;
-    padding: 6px;
 
     fieldset {
         border: none;
@@ -24,15 +24,17 @@
         font-size: 16px;
         font-weight: 500;
         margin-bottom: 16px;
+        line-height: 24px;
     }
     
     input {
         font-weight: 500;
         border: 1px solid #e5e1e4;
         border-radius: 5px;
-        padding: 16px 24px;
+        padding: 12px 24px;
         font-size: 16px;
         width: 100%;
+        height: 56px;
         text-overflow: ellipsis;
         background: #fcfdff;
 
@@ -46,7 +48,7 @@
 
 .input-group {
     display: flex;
-    margin-top: 24px;
+    margin-top: 30px;
 }
 
 .input-wrapper {
